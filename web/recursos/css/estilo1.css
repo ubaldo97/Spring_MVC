@@ -1,0 +1,12 @@
+body{
+   
+}
+img{
+    vertical-align: middle;
+    width: 400px;
+}
+#texto{
+  display: inline-block;
+  vertical-align: middle;
+  color: #1a2e35;
+}

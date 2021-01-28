@@ -31,8 +31,8 @@ public class UsuariosControlador {
     public String procsarUsuarioForm(HttpServletRequest request, Model modelo){
        
         String nombre = request.getParameter("nombreUsuario");
-        nombre +=" es el usuario 1 millon";
-        String mensaje = "Que numero de usuario es? "+nombre;
+        nombre +=" te gusta como se ve?";
+        String mensaje = "Esta es una pagina hecha en spring.<br>  "+nombre;
         
         //Agregando info al modelo
         modelo.addAttribute("mensaje", mensaje);
