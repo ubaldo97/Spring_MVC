@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  *
@@ -28,9 +29,9 @@ public class UsuariosControlador {
     }
     
       @RequestMapping("/respuestaUsuarioForm2")
-    public String procsarUsuarioForm(HttpServletRequest request, Model modelo){
-       
-        String nombre = request.getParameter("nombreUsuario");
+    //public String procsarUsuarioForm(HttpServletRequest request, Model modelo){
+        public String procsarUsuarioForm(@RequestParam("nombreUsuario") String nombre, Model modelo){
+        //String nombre = request.getParameter("nombreUsuario");
         nombre +=" te gusta como se ve?";
         String mensaje = "Esta es una pagina hecha en spring.<br>  "+nombre;
         

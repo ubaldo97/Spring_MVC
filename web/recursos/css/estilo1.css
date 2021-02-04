@@ -2,8 +2,9 @@ body{
    
 }
 img{
+    padding-right: 100px;
     vertical-align: middle;
-    width: 400px;
+    width: 450px;
 }
 #texto{
   display: inline-block;
