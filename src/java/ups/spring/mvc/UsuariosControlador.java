@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author ups_c
  */
 @Controller
+@RequestMapping("/alumno")
 public class UsuariosControlador {
     
     @RequestMapping("/formularioUsuarios")

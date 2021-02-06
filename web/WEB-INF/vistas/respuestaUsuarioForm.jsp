@@ -4,7 +4,6 @@
     Author     : ups_c
 --%>
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
     <head>
